@@ -1,0 +1,26 @@
+{
+  "name": "client-rest-sdk",
+  "version": "1.0.0",
+  "description": "Client side Rest API integration SDK based on Javascript, ES6, Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsanmax/client-rest-sdk.git"
+  },
+  "keywords": [
+    "Rest",
+    "API",
+    "Client",
+    "Rest",
+    "SDK"
+  ],
+  "author": "sandeep.guddu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsanmax/client-rest-sdk/issues"
+  },
+  "homepage": "https://github.com/itsanmax/client-rest-sdk#readme"
+}
