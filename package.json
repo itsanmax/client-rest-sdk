@@ -2,9 +2,10 @@
   "name": "client-rest-sdk",
   "version": "1.0.0",
   "description": "Client side Rest API integration SDK based on Javascript, ES6, Typescript",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/itsanmax/client-rest-sdk/issues"
   },
-  "homepage": "https://github.com/itsanmax/client-rest-sdk#readme"
+  "homepage": "https://github.com/itsanmax/client-rest-sdk#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
 }
